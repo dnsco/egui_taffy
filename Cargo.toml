@@ -14,26 +14,26 @@ license = "MIT"
 egui = { version = "0.29", default-features = false }
 log = { version = "0.4", default-features = false }
 taffy = { version = "0.6.2", default-features = false, features = [
-  "taffy_tree",
+    "taffy_tree",
 ] }
 
 [features]
 default = ["taffy_default"]
 
 taffy_default = [
-  "taffy/block_layout",
-  "taffy/content_size",
-  "taffy/flexbox",
-  "taffy/grid",
-  "taffy/std",
+    "taffy/block_layout",
+    "taffy/content_size",
+    "taffy/flexbox",
+    "taffy/grid",
+    "taffy/std",
 ]
 
 [dev-dependencies]
 eframe = { version = "0.29", default-features = false, features = [
-  "wgpu",
-  "accesskit",
-  "default_fonts",
-  "wayland",
-  "web_screen_reader",
-  "x11",
+    "wgpu",
+    "accesskit",
+    "default_fonts",
+    "wayland",
+    "web_screen_reader",
+    "x11",
 ] }
